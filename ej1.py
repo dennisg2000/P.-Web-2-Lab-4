@@ -11,10 +11,10 @@ def esEscalar(m):
         return False
   return True
 
-def esUnitaria(m):
-  return m[0][0] == 1 and esEscalar(m)
 
-a=[[1,0],[0,1]]
+a=[[1,0,0],
+  [0,1,0],
+  [0,0,1]]
 
 print(esEscalar(a))
-print(esUnitaria(a))
+
